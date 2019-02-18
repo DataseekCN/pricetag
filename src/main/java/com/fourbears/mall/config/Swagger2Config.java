@@ -12,7 +12,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * Swagger2API文档的配置
- * Created by macro on 2018/4/26.
+ * 
  */
 @Configuration
 @EnableSwagger2
@@ -29,9 +29,9 @@ public class Swagger2Config {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("mall后台系统")
-                .description("mall后台模块")
-                .contact("macro")
+                .title("电子价签后台系统")
+                .description("电子价签商户后台模块")
+                .contact("fourbears")
                 .version("1.0")
                 .build();
     }
